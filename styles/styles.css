@@ -1,0 +1,417 @@
+body{
+    background-image: url(/assets/bg.png);
+}
+
+
+.quicksand{
+    font-family: "Quicksand", serif;
+    
+}
+/* Colors */
+.white{
+    color: white;
+}
+
+.orange{
+    color: #FEA301;
+}
+.sky-blue{
+    color: #01ACFD;
+}
+.light-blue{
+    color: rgba(5, 212, 223, 1);
+}
+.little-bit-violet{
+    color:rgba(93, 88, 239, 1)
+} 
+
+.paragraphs{
+    color: rgba(128, 128, 128, 1);
+}
+
+/* NAV BAR RELATED WORK */
+head{
+    max-width: 1200px;
+}
+
+.School-Logo{
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    
+}
+.School-name{
+    font-family: "Quicksand", serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.School-about{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    font-family: "Quicksand", serif;
+    font-size: 1.25rem;
+}
+
+.School-about a{
+    text-decoration: none;
+}
+
+#Home{
+   color: #FEA301; 
+}
+
+#About{
+    color: #01ACFD;
+}
+
+#Facilities{
+    color: rgba(5, 212, 223, 1);
+}
+#Admission{
+    color:rgba(93, 88, 239, 1)  
+}
+
+.btn{
+    background-color:#FEA301; ;
+    color: white;
+    padding: 20px 40px;
+    border: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    font-family: "Quicksand", serif;
+   
+    
+}
+.btn-box{
+    padding-top: 20px;
+}
+.school-about-box{
+    padding-top: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* NAV BAR ENDED FROM HERE */
+
+/* HEADING SECTION STARTS */
+.Hero-kid-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 106px;
+    align-items: center;
+
+}
+.Hero-kid-title-and-passage{
+    font-family: "Quicksand", serif;
+    max-width: 650px;
+    max-height: fit-content;
+}
+
+.Hero-kid-title-and-passage h1{
+    font-size: 3.5rem;
+}
+.Hero-kid-title-and-passage p{
+   font-size: 1.25rem;
+}
+.kid-btn{
+    background-color:black ;
+    color: white;
+    padding: 20px 40px;
+    border: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    font-family: "Quicksand", serif;
+   
+}
+
+
+
+#empowering{
+    color: #FEA301;;
+}
+
+#toward-vision{
+    color: #01ACFD;
+}
+
+/* KINDER GARDEN MIDDLE SCHOOL DESIGN */
+main{
+    font-family: "Quicksand", serif;
+}
+.KEM-box{
+    display: flex;
+    justify-content: center;
+    max-width: 100%x;
+    align-items: center;
+    gap: 40px;
+    margin: 0, auto;
+    margin-left: 10px;
+}
+
+.KEM-box a{
+    text-decoration: none;
+}
+main h1{
+    font-size: 2.85rem;
+    text-align: center;
+}
+
+.KEM-box h3{
+    font-size: 1.5rem;
+}
+
+.KEM-box p{
+    font-size: 1rem;
+    color: rgba(128, 128, 128, 1);
+}
+
+/* .KEM-BOX-WITHIN-BOX{
+    max-width: 370px;
+    max-height:482px;
+    border: solid #ffb941;
+} */
+
+
+
+.Kinder{
+    max-width: 370px;
+    max-height:482px;
+    border: solid 1px #01ACFD;;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 80px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+
+}
+
+.Elementary{
+    max-width: 370px;
+    max-height:482px;
+    border: solid 1px rgb(255, 197, 98);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 80px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom, #fdf4e3, #ffffff);
+
+}
+
+.Middleschool{
+    max-width: 370px;
+    max-height:482px;
+    border: solid 1px rgb(105, 100, 243);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 80px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom, #e8eafc, #ffffff);
+}
+
+.button{
+            margin-top:40px;
+            background-color: orange;
+            border: none;
+            color: white;
+            padding: 20px 27px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#left-right-arrow{
+    text-align: center;
+}
+
+
+
+
+
+/* SECOND PAGE WITH GRID LAYOUTS AND STUFFS */
+/* .page-two {
+    background: linear-gradient(to bottom, #f9f5ed, #fffcf7);
+  } */
+
+
+.page-two{
+    background: linear-gradient(to top, rgb(255, 232, 191),rgba(255, 255, 255, 1));
+    
+}
+
+
+
+
+
+
+.second-page{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.small-box{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    text-align: center;
+}
+
+.small-box > img{
+    width: 291px;
+    height: 177px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+.our-stories-title{
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.second-page-button{
+    background-color:black ;
+    color: white;
+    padding: 20px 40px;
+    border: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    font-family: "Quicksand", serif;
+    text-align: center;
+
+}
+
+
+.btn-div-second-page{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.left-container{
+    width: 540px;
+    height: 630px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    text-align: center;
+}
+
+/* FOOTER SECTION */
+footer{
+    background-color: #01ACFD;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #00aaff;
+    height: 300px;
+    
+}
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-left: 30px;
+    width: 100%;
+    
+
+   
+}
+.footer-left,
+  .footer-middle,
+  .footer-right {
+    flex: 1;
+    margin: 0 10px;
+    
+  }
+  .footer-middle{
+    text-align: center;
+  }
+
+  .footer-right{
+    width: 40px;
+  }
+    
+.footer-logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.links a{
+    text-decoration: none;
+}
+.links{
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.social-icons{
+    gap: 15px;
+}
+
+.footer-title{
+    font-size: 1.25rem;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width: 576px){.Hero-kid-section{
+    display: flex;
+    flex-direction: column-reverse ;
+}
+
+.KEM-box{
+    display: grid;
+}
+
+
+.second-page{
+    grid-column: auto;
+}
+
+
+
+}
+.footer{
+    display: grid;}
+
+
+
+    
+
